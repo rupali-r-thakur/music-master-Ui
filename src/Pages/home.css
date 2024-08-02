@@ -1,0 +1,119 @@
+.home_page_main_container{
+    height: 84vh;
+    width: 100%;
+    display: flex;
+
+}
+.home_img_container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.home_text_container{
+    width: 50%;
+    display: grid;
+    grid-template-rows: 37% 17% 18% 1fr;
+    padding-top: 7%;
+    padding-right: 11.5%;
+}
+.heading{
+    font-size: 28px;
+    color: rgb(10, 10, 115);
+}
+.heading span{
+    color:#0e7fe1 ;
+}
+.paragraph{
+    font-size: 20px;
+}
+.number{
+    display: flex;
+    text-align: right;
+}
+  
+  .tutors-container {
+    display: flex;
+    align-items: center;
+    max-width: 450px; 
+    border-right: 1px solid silver;
+    padding-right: 10px;
+  }
+  
+  .tutors-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(10, 10, 115); 
+    margin-right: 20px;
+  }
+  
+  .tutors-text {
+    text-align: left; 
+  }
+  
+  .tutors-text span {
+    display: block;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .tutors-text span:first-child {
+    font-weight: bold;
+    margin-bottom: 5px; 
+  }
+  
+
+
+
+  .tutors-container2 {
+    display: flex;
+    align-items: center;
+    max-width: 400px; 
+  }
+  
+  .tutors-number2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(10, 10, 115); 
+    margin-right: 20px; 
+  }
+  
+  .tutors-text2 {
+    text-align: left; 
+  }
+  
+  .tutors-text2 span {
+    display: block;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .tutors-text2 span:first-child {
+    font-weight: bold;
+    margin-bottom: 5px; 
+  }
+  
+  
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 85%;
+    
+  }
+  .button button{
+    padding: 17px 27px;
+    border-radius: 30px;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 18px;
+  }
+  #button1{
+    background-color: #0e7fe1;
+  }
+  #button2{
+    background-color:#32CD32 ;
+  }
+  

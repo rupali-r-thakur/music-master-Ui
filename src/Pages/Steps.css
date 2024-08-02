@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .centered-box {
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    background-color: #0e7fe1;
+    width: 85%;
+    height: 67%;
+    
+  }
+  
+  .left-content {
+    width: 30%;
+  }
+  
+  .left-content h1 {
+    margin: 20px;
+    color: #fff;
+    font-size: 20px;
+
+  }
+  .left-content h2{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 20px;
+
+  }
+  .left-content p{
+    color: #fff;
+    margin-left: 20px;
+  }
+  
+  .cta-button {
+    margin: 20px;
+    height: 17%;
+    width: 55%;
+    background-color: #fff;
+    color:#0e7fe1 ;
+    border-radius: 30px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .right-content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 100px;
+    width: 70%;
+    
+  }
+  
+  .box{
+    width: 67%;
+    height: 80%;
+    margin: 20px;
+    text-align: center;
+   
+  }
+  .step-number {
+    background-color: #318ce6;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+
+  }
+  
+  .box p {
+    margin: 0;
+    font-size: 15px;
+    color: #333;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+  }

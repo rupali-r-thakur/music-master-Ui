@@ -1,0 +1,32 @@
+.about_main_container{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(248, 241, 241);
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.about_heading{
+    width: 35%;
+    padding-left: 60px;
+}
+.about_heading span{
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(19, 163, 230)  ;
+}
+.about_heading h1{
+    font-size: 35px;
+    color: rgb(19, 19, 151);
+}
+.about_heading p{
+    color:rgb(19, 163, 230)  ;
+    font-size: 20px;
+}
+.about_paragraph{
+    width: 60%;
+}
+.about_paragraph p{
+    font-size: 17.5px;
+    padding: 10px;
+}

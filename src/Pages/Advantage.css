@@ -1,0 +1,38 @@
+.main_container{
+    height: 80vh;
+    width: 100%;
+    display: block;
+}
+.header_section{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header_section h1{
+   font-size: 30px;
+   color:rgb(19, 19, 151) ;
+}
+.about_advantage{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    text-align: center;
+    margin-left: 10%;
+
+}
+.about_advantage h3{
+    color:rgb(19, 19, 151)  ;
+}
+.about_advantage p{
+    margin: 20px;
+    font-size: 20px;
+}
+.div1{
+    text-align: center;
+}
+.div2{
+    text-align: center;
+}
+.div3{
+    text-align: center;
+}

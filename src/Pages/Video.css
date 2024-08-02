@@ -1,0 +1,31 @@
+.video_main_container{
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 10% 1fr;
+
+}
+.video_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.video_header h1{
+    font-size: 40px;
+    color: rgb(19, 19, 151);
+}
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.video .video1{
+    height: 80%;
+    width: 25%;
+    background-color: red;
+    margin: 20px;
+}
+.video .video1 img{
+    width: 100%;
+    height: 100%;
+}

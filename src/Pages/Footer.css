@@ -1,0 +1,100 @@
+.footer_main_container {
+    background-color: #1b4f72 ; 
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .footer_section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+  }
+  
+  .footer_section h4 {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .footer_section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer_section ul li {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  
+  .footer_section a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer_section a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer_section p, .footer_section li {
+    margin: 5px 0;
+    font-size: 13px;
+  }
+  
+  .footer_section .contact_button {
+    background-color: rgb(6, 198, 6);
+    color: rgb(4, 4, 66); 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  .footer_section .contact_button:hover {
+    opacity: 0.8;
+  }
+  
+  .company_info {
+    width: 100%;
+    margin-left: 20%;
+    margin-top: 20px;
+  }
+  
+  .footer_section img {
+    width: 100px;
+  }
+  
+  .footer_section hr {
+    border: 0;
+    height: 1px;
+    background: white;
+    margin: 10px 0;
+  }
+  
+  .social_icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff; 
+    color: rgb(5, 5, 61);
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    opacity: 0.8;
+  }
+  

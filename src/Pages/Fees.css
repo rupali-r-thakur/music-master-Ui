@@ -1,0 +1,12 @@
+.Fees{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(19, 19, 151) ;
+    margin-top: 40vh;
+}
+.Fees h1{
+    color:#fff ;
+}
